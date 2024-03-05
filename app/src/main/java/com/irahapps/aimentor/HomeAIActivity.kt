@@ -64,7 +64,6 @@ import kotlinx.coroutines.flow.update
 class HomeAIActivity : ComponentActivity() {
 
     private val uriState = MutableStateFlow("")
-
     private val imagePicker =
         registerForActivityResult<PickVisualMediaRequest, Uri>(
             ActivityResultContracts.PickVisualMedia()) { uri ->
