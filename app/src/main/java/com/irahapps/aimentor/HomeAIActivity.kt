@@ -122,9 +122,6 @@ class HomeAIActivity : ComponentActivity() {
         }
     }
 
-
-
-
     @SuppressLint("Range")
     @OptIn(ExperimentalMaterial3Api::class)
     @Preview
